@@ -1,0 +1,35 @@
+.fundoAnimation{
+    animation: Fundo infinite linear alternate 20s;
+}
+
+.grao{
+    animation: Grao linear infinite alternate;
+}
+
+@keyframes Fundo {
+    0%{
+        transform: translate(-200px);
+    }
+
+    50%{
+        transform: translateX(0)
+    }
+
+    100%{
+        transform: translateX(20px);
+    }
+}
+
+@keyframes Grao {
+    0%{
+        transform: rotate(2deg);
+    }
+
+    50%{
+        transform: rotate(0);
+    }
+
+    100%{
+        transform: rotate(-2deg);
+    }
+}
