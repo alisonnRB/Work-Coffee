@@ -37,10 +37,10 @@ export default function Capa() {
                 quality={100}
             />
 
-            <Graos image={Grao1} z={20} key={1} id={1} duration={'2s'} reverse={true} />
-            <Graos image={Grao2} z={20} key={2} id={2} duration={'6s'} reverse={true} />
-            <Graos image={Grao3} z={20} key={3} id={3} duration={'3s'} reverse={false} />
-            <Graos image={Grao4} z={20} key={4} id={4} duration={'7s'} reverse={false} />
+            <Graos image={Grao1} key={1} id={1} duration={'2s'} reverse={true} />
+            <Graos image={Grao2} key={2} id={2} duration={'6s'} reverse={true} />
+            <Graos image={Grao3} key={3} id={3} duration={'3s'} reverse={false} />
+            <Graos image={Grao4} key={4} id={4} duration={'7s'} reverse={false} />
 
         </section>
     );
