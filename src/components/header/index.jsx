@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header className="flex absolute z-[100] w-full top-0 text-white gap-6 font-normal justify-center py-2 items-center">
+        <header className="flex absolute z-[100] w-full top-2 text-white gap-6 font-normal justify-center py-2 items-center">
 
             <Link href={'/'} className="cursor-pointer">
                 ABOUT

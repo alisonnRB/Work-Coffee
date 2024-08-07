@@ -19,7 +19,7 @@ export default function Capa() {
             <Image
                 src={capaLogo}
                 objectFit="contain"
-                className="w-full max-w-screen absolute z-50 top-0 left-0"
+                className="w-full max-w-screen absolute z-50 top-0 left-0 sombra"
                 quality={100}
                 draggable={false}
             />

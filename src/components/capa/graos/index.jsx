@@ -22,7 +22,7 @@ export default function Graos({ image, z, duration, reverse, id }) {
             <Image
                 src={image}
                 objectFit="contain"
-                className="w-full max-w-screen z-20 absolute grao"
+                className="w-full max-w-screen z-20 absolute grao sombra"
                 id={`${id}`}
                 quality={100}
                 draggable={false}
