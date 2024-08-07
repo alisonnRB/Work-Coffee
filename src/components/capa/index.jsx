@@ -14,12 +14,12 @@ import './index.css';
 
 export default function Capa() {
     return (
-        <section className="w-full bg-green overflow-hidden">
+        <section className="w-full">
 
             <Image
                 src={capaLogo}
                 objectFit="contain"
-                className="w-full max-w-screen absolute z-50 top-0 left-0 sombra"
+                className="w-full max-w-screen relative z-50 mb-[-90%] sombra"
                 quality={100}
                 draggable={false}
             />
@@ -27,7 +27,7 @@ export default function Capa() {
             <Image
                 src={capaCafe}
                 objectFit="contain"
-                className="w-full max-w-screen absolute z-40 cafeAnimation"
+                className="w-full max-w-screen relative z-40 mb-[-90%] cafeAnimation"
                 quality={100}
                 draggable={false}
             />
@@ -35,7 +35,7 @@ export default function Capa() {
             <Image
                 src={capaFundo}
                 objectFit="contain"
-                className="w-full max-w-screen absolute z-10 fundoAnimation"
+                className="w-full max-w-screen relative mb-[-70%] z-10 fundoAnimation"
                 quality={100}
                 draggable={false}
             />
@@ -43,7 +43,7 @@ export default function Capa() {
             <Graos image={Grao1} key={1} id={1} duration={'2s'} reverse={true} />
             <Graos image={Grao2} key={2} id={2} duration={'6s'} reverse={true} />
             <Graos image={Grao3} key={3} id={3} duration={'3s'} reverse={false} />
-            <Graos image={Grao4} key={4} id={4} duration={'7s'} reverse={false} />
+            <Graos image={Grao4} key={4} id={4} duration={'7s'} reverse={false} m={true}/>
 
         </section>
     );
