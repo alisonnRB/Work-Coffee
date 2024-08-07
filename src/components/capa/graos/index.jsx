@@ -25,6 +25,7 @@ export default function Graos({ image, z, duration, reverse, id }) {
                 className="w-full max-w-screen z-20 absolute grao"
                 id={`${id}`}
                 quality={100}
+                draggable={false}
             />
         </>
     );

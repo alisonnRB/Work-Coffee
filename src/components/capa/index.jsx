@@ -21,6 +21,7 @@ export default function Capa() {
                 objectFit="contain"
                 className="w-full max-w-screen absolute z-50 top-0 left-0"
                 quality={100}
+                draggable={false}
             />
 
             <Image
@@ -28,6 +29,7 @@ export default function Capa() {
                 objectFit="contain"
                 className="w-full max-w-screen absolute z-40 cafeAnimation"
                 quality={100}
+                draggable={false}
             />
 
             <Image
@@ -35,6 +37,7 @@ export default function Capa() {
                 objectFit="contain"
                 className="w-full max-w-screen absolute z-10 fundoAnimation"
                 quality={100}
+                draggable={false}
             />
 
             <Graos image={Grao1} key={1} id={1} duration={'2s'} reverse={true} />
