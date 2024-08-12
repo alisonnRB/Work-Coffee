@@ -1,37 +1,7 @@
 .aboutTitle {
-    font-size: clamp(.9em, 2rem + 1vw, 4rem);
+    font-size: clamp(.8rem, 3.5vw, 4rem);
 }
 
 .aboutText{
-    font-size: clamp(.5em, 1em + 1vw , 1.8rem);
-}
-
-@media screen and (min-width: 320px) {
-    .aboutTitle {
-        font-size: clamp(.4em, 1em + .2vw, .6rem);
-    }
-
-    .aboutText{
-        font-size: clamp(.2em, 1em + .5vw , .3rem);
-    }
-}
-
-@media screen and (min-width: 321px) {
-    .aboutTitle {
-        font-size: clamp(.4em, 1em + .4vw, .9rem);
-    }
-
-    .aboutText{
-        font-size: clamp(.2em, 1em + .5vw , .3rem);
-    }
-}
-
-@media screen and (min-width: 520px) {
-    .aboutTitle {
-        font-size: clamp(.4em, 1em + .4vw, .9rem);
-    }
-
-    .aboutText{
-        font-size: clamp(.2em, 1em + .5vw , .3rem);
-    }
+    font-size: clamp(.3em, 1.8vw, 1.7rem);
 }
