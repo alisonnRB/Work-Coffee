@@ -25,7 +25,7 @@ export default function Menu() {
     };
 
     return (
-        <section className="bg-white relative top-96 z-[250]">
+        <section className="bg-white relative top-96 z-[250] pb-[15%] mb-[25%]">
 
             <span className="flex flex-col px-[4%] pt-14 portrait:pt-7 mb-[10em] portrait:mb-[2em]">
                 <h1 className="font-semibold text-black menu-title">COFFEE MENU</h1>
