@@ -1,0 +1,14 @@
+.menu-title {
+    border-bottom: solid black .45rem;
+    max-width: 300px;
+    font-size: clamp(.8rem, 3vw, 4rem);
+}
+
+.bord {
+    position: relative;
+    width: 280px;
+    z-index: -1;
+    top: 5px;
+    left: 5%;
+    border-bottom: .35rem solid #000;
+}
