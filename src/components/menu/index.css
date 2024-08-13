@@ -1,14 +1,34 @@
 .menu-title {
-    border-bottom: solid black .45rem;
-    max-width: 300px;
+    border-bottom: solid black 1.1vh;
+    text-wrap: nowrap;
+    max-width: 25vw;
     font-size: clamp(.8rem, 3vw, 4rem);
 }
 
 .bord {
     position: relative;
-    width: 280px;
+    width: 25vw;
     z-index: -1;
     top: 5px;
     left: 5%;
-    border-bottom: .35rem solid #000;
+    border-bottom: 1vh solid #000;
+}
+
+@media screen and (orientation: portrait) {
+    .menu-title {
+        border-bottom: solid black .5vh;
+        text-wrap: nowrap;
+        max-width: 25vw;
+        font-size: clamp(.8rem, 3vw, 4rem);
+    }
+
+    .bord {
+        position: relative;
+        width: 25vw;
+        z-index: -1;
+        top: 5px;
+        left: 5%;
+        border-bottom: .4vh solid #000;
+    }
+
 }

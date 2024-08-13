@@ -8,7 +8,7 @@ import './index.css';
 
 export default function About() {
     return (
-        <section className="flex w-full bg-pink-950 relative top-96 z-[300] overflow-x-clip">
+        <section className="flex w-full relative top-96 z-[300] overflow-x-clip">
             <Image
                 src={Room}
                 objectFit="contain"

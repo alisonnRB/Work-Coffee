@@ -1,0 +1,18 @@
+.product-name {
+    font-size: clamp(0px, 1.2vw, 2rem);
+}
+
+.price {
+    font-size: clamp(0px, 1.2vw, 2rem);
+}
+
+.desc-product {
+    font-size: clamp(0px, .9vw, 1.5rem);
+}
+
+
+@media screen and (max-width: 320px) {
+    .barman{
+        min-width: 15px;
+    }
+}
