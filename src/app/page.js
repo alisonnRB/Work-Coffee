@@ -5,7 +5,7 @@ import Plans from "@/components/plans";
 
 export default function Home() {
   return (
-    <main className="flex flex-col self-center w-full">
+    <main className="flex flex-col self-center w-full main-class">
       <Capa />
       <About />
       <Menu />

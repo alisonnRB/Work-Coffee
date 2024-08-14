@@ -33,6 +33,10 @@ input {
   font-family: "Anybody", sans-serif;
 }
 
+.main-class {
+  background: linear-gradient(180deg, rgba(25, 35, 31, 1) 50%, rgba(255, 255, 255, 1) 50%);
+}
+
 
 
 
