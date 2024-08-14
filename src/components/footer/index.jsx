@@ -48,19 +48,19 @@ export default function Footer() {
                 <h6 className="subTitle-footer font-semibold">Páginas</h6>
 
                 <nav className="flex flex-col footer-nav gap-2">
-                    <Link href={'/'}>
+                    <Link href={'/about'}>
                         About
                     </Link>
 
-                    <Link href={'/'}>
+                    <Link href={'/menu'}>
                         Menu
                     </Link>
 
-                    <Link href={'/'}>
+                    <Link href={'/plans'}>
                         Plans
                     </Link>
 
-                    <Link href={'/'}>
+                    <Link href={'/contact'}>
                         Contact
                     </Link>
                 </nav>

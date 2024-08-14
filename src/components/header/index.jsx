@@ -5,19 +5,19 @@ export default function Header() {
     return (
         <header className="flex cabecalho absolute z-[100] w-full top-2 text-white gap-6 font-normal justify-center py-2 items-center">
 
-            <Link href={'/'} className="cursor-pointer">
+            <Link href={'/about'} className="cursor-pointer">
                 ABOUT
             </Link>
 
-            <Link href={'/'} className="cursor-pointer">
+            <Link href={'/menu'} className="cursor-pointer">
                 MENU
             </Link>
 
-            <Link href={'/'} className="cursor-pointer">
+            <Link href={'/plans'} className="cursor-pointer">
                 PLANS
             </Link>
 
-            <Link href={'/'} className="cursor-pointer">
+            <Link href={'/contact'} className="cursor-pointer">
                 CONTACT
             </Link>
 
