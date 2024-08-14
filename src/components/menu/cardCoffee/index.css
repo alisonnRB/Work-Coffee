@@ -1,13 +1,13 @@
 .product-name {
-    font-size: clamp(0px, 1.2vw, 2rem);
+    font-size: clamp(0px, 1.2vw, 1.5rem);
 }
 
 .price {
-    font-size: clamp(0px, 1.2vw, 2rem);
+    font-size: clamp(0px, 1.2vw, 1.5rem);
 }
 
 .desc-product {
-    font-size: clamp(0px, .9vw, 1.5rem);
+    font-size: clamp(0px, .9vw, 1rem);
 }
 
 

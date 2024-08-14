@@ -1,3 +1,6 @@
 .cabecalho{
     font-size: clamp(0px, 3.5vw, 1rem);
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%);
 }
