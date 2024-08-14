@@ -1,0 +1,15 @@
+.plans-title{
+    font-size: clamp(0px, 5vw, 5rem);
+}
+
+.plans-price{
+    font-size: clamp(0px, 2vw, 2rem);
+}
+
+.plans-text{
+    font-size: clamp(0px, 3vw, 3rem);
+}
+
+.gaper{
+    gap: calc(8vw - 1.5vh);
+}
