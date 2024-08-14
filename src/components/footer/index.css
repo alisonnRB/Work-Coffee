@@ -1,3 +1,39 @@
 .footer-info {
     font-family: "Inter", sans-serif;
 }
+
+.footer-nav {
+    font-size: clamp(1rem, 1.5vw, 2rem);
+}
+
+.subTitle-footer {
+    font-size: clamp(1.5rem, 2vw, 3rem);
+}
+
+.subTitle-folow {
+    font-size: clamp(1.2rem, 2vw, 3rem);
+}
+
+
+
+@media screen and (max-width: 780px) {
+    .fote {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 4em;
+    }
+
+    .tree{
+        border-top: solid white 1px;
+        grid-column: span 2;
+        width: 80%;
+        align-items: center;
+        padding-top: 1em;
+    }
+
+}
+
+@media  screen and (max-width: 270px) {
+    .tree{
+        display: none;
+    }
+}

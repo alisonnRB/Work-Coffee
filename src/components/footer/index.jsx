@@ -10,9 +10,9 @@ import './index.css';
 
 export default function Footer() {
     return (
-        <footer className="bg-green flex footer-info py-8 justify-around text-white">
+        <footer className="bg-green justify-items-center footer-info py-8 fote grid grid-cols-3 text-white">
 
-            <section className="flex flex-col gap-[9vh]">
+            <section className="flex flex-col gap-[9vh] max-w-[50%]">
                 <Link href={'/'}>
                     <Image
                         src={brand}
@@ -22,18 +22,22 @@ export default function Footer() {
                 </Link>
 
                 <span className="flex flex-col gap-1">
-                    <h6 className="text-white">Follow us on:</h6>
+                    <h6 className="text-white subTitle-follow">Follow us:</h6>
 
                     <span className="flex gap-4">
-                        <Link href={'/'}>
+                        <Link href={'/'} className="max-w-[30%]">
                             <Image
                                 src={facebook}
+                                objectFit="contain"
+                                quality={100}
                             />
                         </Link>
 
-                        <Link href={'/'}>
+                        <Link href={'/'} className="max-w-[30%]">
                             <Image
                                 src={instagran}
+                                objectFit="contain"
+                                quality={100}
                             />
                         </Link>
                     </span>
@@ -41,9 +45,9 @@ export default function Footer() {
             </section>
 
             <section className="flex flex-col gap-4">
-                <h6 className="text-[2vw] font-semibold">Páginas</h6>
+                <h6 className="subTitle-footer font-semibold">Páginas</h6>
 
-                <nav className="flex flex-col text-[1.5vw] gap-2">
+                <nav className="flex flex-col footer-nav gap-2">
                     <Link href={'/'}>
                         About
                     </Link>
@@ -62,8 +66,8 @@ export default function Footer() {
                 </nav>
             </section>
 
-            <section className="flex flex-col gap-4">
-                <h6 className="font-semibold text-[2vw]">News Latters</h6>
+            <section className="flex flex-col gap-4 tree">
+                <h6 className="font-semibold subTitle-footer">News Latters</h6>
                 <span className="flex gap-2">
                     <input type="email" placeholder="Email" className="px-1 text-black outline-none" />
                     <Image

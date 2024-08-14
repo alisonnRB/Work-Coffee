@@ -18,7 +18,7 @@ export default function Plans() {
                 <p className='font-semibold plans-price'>R$ 5,00 /h</p>
             </span>
 
-            <div className='w-full flex flex-col items-center z-20 text-white font-semibold gap-6'>
+            <div className='w-full flex flex-col items-center z-20 text-white font-semibold gap-4'>
                 <p className='text-center plans-text w-[75%]'>O workcoffee oferece um ambiente ideial para trabalhar, estudar e relaxar. Confira também os planos para acesso ao nosso café</p>
                 <button className='bg-red plans-text px-[2em] py-1'>VER PLANOS</button>
             </div>

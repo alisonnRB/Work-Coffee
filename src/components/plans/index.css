@@ -13,3 +13,10 @@
 .gaper{
     gap: calc(8vw - 1.5vh);
 }
+
+
+@media  screen and (max-width: 270px) {
+    .plans-text{
+        margin-bottom: -5%;
+    }
+}
