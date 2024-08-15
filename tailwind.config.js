@@ -11,7 +11,7 @@ module.exports = {
         'green': "#19231F",
         'red': "#451515",
         'gold': "#BAA274",
-        'menu': "rbga(186, 162, 116, 0.2)"
+        'menu': "rbga(186, 162, 116, 0.5)"
       }
     }
   },
