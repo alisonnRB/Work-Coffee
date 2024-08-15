@@ -1,6 +1,8 @@
 import Image from "next/image";
 import AboutCapa from '../../../assets/aboutCapa.png';
 
+import './index.css';
+
 export default function Capa() {
     return (
         <section className="flex flex-col justify-center items-center relative ">
@@ -12,7 +14,7 @@ export default function Capa() {
                 draggable={false}
             />
 
-            <h1 className="absolute text-center text-white text-[5em] font-extrabold">SOBRE <br /> WORKCOFFEE</h1>
+            <h1 className="absolute text-center text-white aboutCapa font-extrabold">SOBRE <br /> WORKCOFFEE</h1>
         </section>
     );
 }
