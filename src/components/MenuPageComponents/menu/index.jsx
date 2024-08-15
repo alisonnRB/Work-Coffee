@@ -8,8 +8,7 @@ export default function Menu({ food }) {
     const FoodGenerator = () => {
         const list = [];
 
-        const exist = ["coffee", "salt", "swit"];
-        if(!exist[food]){
+        if(!menu[food]){
             return <p>Don't Have This</p>;
         }
 
