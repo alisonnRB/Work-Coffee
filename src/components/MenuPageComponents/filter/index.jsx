@@ -1,6 +1,3 @@
-'use client';
-
-import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
 import SwitOn from '../../../assets/switOn.svg';
@@ -15,15 +12,13 @@ import CoffeeOff from '../../../assets/CoffeeOff.svg';
 
 export default function Filter({food}) {
 
-    useEffect(()=>{console.log(food)},[])
-
     return (
         <section className="flex justify-center w-full py-[5%]">
 
             <span className='flex items-end justify-center gap-[30%]'>
 
                 <Image
-                    src={food == 'coffe' ? CoffeeOn : CoffeeOff}
+                    src={food == 'coffee' ? CoffeeOn : CoffeeOff}
                     quality={100}
                     objectFit='contain'
                     className='cursor-pointer'

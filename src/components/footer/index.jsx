@@ -52,7 +52,7 @@ export default function Footer() {
                         About
                     </Link>
 
-                    <Link href={'/menu'}>
+                    <Link href={'/menu/coffee'}>
                         Menu
                     </Link>
 

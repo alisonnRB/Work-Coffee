@@ -9,7 +9,7 @@ export default function Header() {
                 ABOUT
             </Link>
 
-            <Link href={'/menu'} className="cursor-pointer">
+            <Link href={'/menu/coffee'} className="cursor-pointer">
                 MENU
             </Link>
 

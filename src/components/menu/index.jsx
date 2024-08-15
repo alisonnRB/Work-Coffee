@@ -43,7 +43,7 @@ export default function Menu() {
                         className='w-[80%]'
                     />
 
-                    <Link href={'/'} className="w-[80%]">
+                    <Link href={'/menu/coffee'} className="w-[80%]">
                         <button className="border-solid border-black text-black aboutText font-medium border-[.2vw] py-[1em] w-full">
                             VER MENU COMPLETO
                         </button>
