@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
 
 export default function MenuPage() {
-    redirect('/menu/coffee');
+  redirect('/menu/coffee');
 }
