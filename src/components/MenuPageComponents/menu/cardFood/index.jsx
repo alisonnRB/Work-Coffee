@@ -3,7 +3,7 @@ import './index.css';
 
 export default function cardFood({item}){
     return(
-        <div className="p-[4%] menu-card flex flex-col">
+        <div className="p-[4%] menu-card flex flex-col mb-[15%]">
             <Image 
                 src={item.img}
                 objectFit="contain"

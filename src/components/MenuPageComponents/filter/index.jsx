@@ -10,6 +10,8 @@ import SaltOff from '../../../assets/saltOff.svg';
 import CoffeeOn from '../../../assets/CoffeeOn.svg';
 import CoffeeOff from '../../../assets/CoffeeOff.svg';
 
+import './index.css';
+
 export default function Filter({ food }) {
 
     return (
@@ -17,7 +19,7 @@ export default function Filter({ food }) {
 
             <span className='flex items-end justify-center gap-[30%]'>
 
-                <Link href={'/menu/coffee'} className='min-w-[30%]'>
+                <Link href={'/menu/coffee'} className='min-w-[30%] option'>
                     <Image
                         src={food == 'coffee' ? CoffeeOn : CoffeeOff}
                         quality={100}
@@ -27,7 +29,7 @@ export default function Filter({ food }) {
                 </Link>
 
 
-                <Link href={'/menu/salt'} className='min-w-[30%]'>
+                <Link href={'/menu/salt'} className='min-w-[30%] option'>
                     <Image
                         src={food == 'salt' ? SaltOn : SaltOff}
                         quality={100}
@@ -38,7 +40,7 @@ export default function Filter({ food }) {
 
 
 
-                <Link href={'/menu/swit'} className='min-w-[30%]'>
+                <Link href={'/menu/swit'} className='min-w-[30%] option'>
                     <Image
                         src={food == 'swit' ? SwitOn : SwitOff}
                         quality={100}

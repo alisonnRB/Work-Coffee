@@ -26,8 +26,8 @@ export default function Menu({ food }) {
     };
 
     return (
-        <section className="w-full h-full flex justify-center">
-            <main className="w-[80%] menuGrid gap-x-[5%] gap-y-[5%] pb-[20%] py-[5%]">
+        <section className="w-full flex justify-center">
+            <main className="w-[80%] menuGrid gap-x-[5%]">
                 {FoodGenerator()}
             </main>
         </section>

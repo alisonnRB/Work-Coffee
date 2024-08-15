@@ -1,5 +1,11 @@
-.menuGrid{
+.menuGrid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     justify-items: center;
+}
+
+@media screen and (max-width: 250px) {
+    .menuGrid {
+        width: 100%;
+    }
 }
