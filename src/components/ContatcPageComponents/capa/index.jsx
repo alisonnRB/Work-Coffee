@@ -3,7 +3,7 @@ import ContactCapa from '../../../assets/contactCapa.png';
 
 export default function Capa() {
     return (
-        <section className="flex flex-col justify-center items-center relative ">
+        <section className="flex flex-col justify-center items-center relative mb-[-50%]">
             <Image
                 src={ContactCapa}
                 objectFit="contain"

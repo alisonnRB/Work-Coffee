@@ -29,8 +29,11 @@ h4,
 h5,
 h6,
 button,
+textarea,
 input {
   font-family: "Anybody", sans-serif;
+  outline: none;
+  resize: none;
 }
 
 .main-class {
