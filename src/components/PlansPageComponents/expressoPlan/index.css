@@ -1,0 +1,7 @@
+.popular{
+    font-size: clamp(1.3rem, 3vw, 3rem);
+}
+
+.plan-title{
+    font-size: clamp(1rem, 1.5vw, 2rem);
+}
