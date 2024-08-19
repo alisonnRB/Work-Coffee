@@ -6,7 +6,11 @@ import email from "@/assets/Email.svg";
 import wpp from "@/assets/whatsapp.svg";
 import location from "@/assets/Location.svg";
 
+import Form from "@/components/ContatcPageComponents/form";
+
 export default function ContactPage() {
+
+
     return (
         <main className="flex flex-col mb-[30%] portrait:mb-[80%]">
             <Capa />
@@ -23,16 +27,7 @@ export default function ContactPage() {
                 <div className="bg-white p-5 rounded-lg flex flex-col gap-4 portrait:w-[40vh] portrait:min-h-[80%]">
                     <h1 className="font-bold">ENVIE SUA MENSAGEM</h1>
 
-                    <form action="" className="grid grid-cols-2 grid-rows-6 gap-x-2 gap-y-2  h-full">
-
-                        <input type="text" placeholder="Nome" className="border-solid border-[.1rem] border-black pl-2"/>
-                        <input type="text" placeholder="Email" className="border-solid border-[.1rem] border-black pl-2"/>
-                        <input type="text" placeholder="Assunto" className="border-solid border-[.1rem] border-black pl-2"/>
-                        <input type="text" placeholder="Número" className="border-solid border-[.1rem] border-black pl-2"/>
-
-                        <textarea name="" id="" placeholder="Sua mensagem" className="col-span-2 row-span-4 border-solid border-[.1rem] border-black pl-2 rounded-lg"></textarea>
-
-                    </form>
+                    <Form />
 
                 </div>
 
