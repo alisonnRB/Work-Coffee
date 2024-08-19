@@ -25,7 +25,7 @@ export default function Footer() {
                     <h6 className="text-white subTitle-follow">Follow us:</h6>
 
                     <span className="flex gap-4">
-                        <Link href={'/'} className="max-w-[30%]">
+                        <Link href={'https://www.facebook.com/?locale=pt_BR'} className="max-w-[30%]">
                             <Image
                                 src={facebook}
                                 objectFit="contain"
@@ -33,7 +33,7 @@ export default function Footer() {
                             />
                         </Link>
 
-                        <Link href={'/'} className="max-w-[30%]">
+                        <Link href={'https://www.instagram.com/'} className="max-w-[30%]">
                             <Image
                                 src={instagran}
                                 objectFit="contain"
