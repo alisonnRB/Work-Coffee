@@ -8,6 +8,7 @@ export default function Capa() {
         <section className="flex flex-col justify-center items-center relative ">
             <Image
                 src={AboutCapa}
+                alt="Imagem de um café com pão feito pela WorkCoffe"
                 objectFit="contain"
                 className="w-full max-w-screen relative"
                 quality={100}

@@ -15,6 +15,7 @@ export default function Footer() {
             <section className="flex flex-col gap-[9vh] max-w-[50%]">
                 <Link href={'/'}>
                     <Image
+                        alt="marca e logotipo da workCoffee"
                         src={brand}
                         objectFit="contain"
                         quality={100}
@@ -27,6 +28,7 @@ export default function Footer() {
                     <span className="flex gap-4">
                         <Link href={'https://www.facebook.com/?locale=pt_BR'} className="max-w-[30%]">
                             <Image
+                                alt="facebook"
                                 src={facebook}
                                 objectFit="contain"
                                 quality={100}
@@ -35,6 +37,7 @@ export default function Footer() {
 
                         <Link href={'https://www.instagram.com/'} className="max-w-[30%]">
                             <Image
+                                alt="instagran"
                                 src={instagran}
                                 objectFit="contain"
                                 quality={100}

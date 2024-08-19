@@ -11,6 +11,7 @@ export default function About() {
         <section className="flex w-full relative top-96 z-[300] overflow-x-clip">
             <Image
                 src={Room}
+                alt="Imagem do ambiente disponibilizado pela WorkCoffee para trabalhar"
                 objectFit="contain"
                 className="w-full max-w-screen"
                 quality={100}
@@ -20,6 +21,7 @@ export default function About() {
             <div className="w-[75%] h-full absolute right-[-15%] mt-[-5%] flex flex-col items-center">
                 <Image
                     src={Form}
+                    alt="forma ilustrativa"
                     objectFit="contain"
                     className="w-full l max-w-screen absolute z-10"
                     quality={100}

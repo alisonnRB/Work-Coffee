@@ -21,6 +21,7 @@ export default function Graos({ image, m, duration, reverse, id }) {
         <>
             <Image
                 src={image}
+                alt='Gão de café, representando o tabalho de qualidade da WorkCoffe'
                 objectFit="contain"
                 className={`w-full max-w-screen z-20 relative ${m ? "mb-[-20%] adjust-media" : "mb-[-90%]"} grao sombra`}
                 id={`${id}`}

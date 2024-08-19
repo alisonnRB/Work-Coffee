@@ -18,6 +18,7 @@ export default function Capa() {
 
             <Image
                 src={capaLogo}
+                alt="Logotipo da marca WorkCoffee"
                 objectFit="contain"
                 className="w-full max-w-screen relative z-50 mb-[-90%] sombra"
                 quality={100}
@@ -26,6 +27,7 @@ export default function Capa() {
 
             <Image
                 src={capaCafe}
+                alt="café da Workcoffee"
                 objectFit="contain"
                 className="w-full max-w-screen relative z-40 mb-[-90%] cafeAnimation"
                 quality={100}
@@ -34,6 +36,7 @@ export default function Capa() {
 
             <Image
                 src={capaFundo}
+                alt="brend da WorkCoffee"
                 objectFit="contain"
                 className="w-full max-w-screen relative mb-[-70%] z-10 fundoAnimation"
                 quality={100}

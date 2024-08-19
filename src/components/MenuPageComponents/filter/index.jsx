@@ -21,6 +21,7 @@ export default function Filter({ food }) {
 
                 <Link href={'/menu/coffee'} className='min-w-[30%] option'>
                     <Image
+                        alt='icone de filtro, café'
                         src={food == 'coffee' ? CoffeeOn : CoffeeOff}
                         quality={100}
                         objectFit='contain'
@@ -31,6 +32,7 @@ export default function Filter({ food }) {
 
                 <Link href={'/menu/salt'} className='min-w-[30%] option'>
                     <Image
+                        alt='icone de filtro, salgados'
                         src={food == 'salt' ? SaltOn : SaltOff}
                         quality={100}
                         objectFit='contain'
@@ -42,6 +44,7 @@ export default function Filter({ food }) {
 
                 <Link href={'/menu/swit'} className='min-w-[30%] option'>
                     <Image
+                        alt='icone de filtro, doces'
                         src={food == 'swit' ? SwitOn : SwitOff}
                         quality={100}
                         objectFit='contain'

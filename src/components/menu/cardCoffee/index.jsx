@@ -6,6 +6,7 @@ export default function CoffeeCard({ item }) {
         <div className="flex gap-[.7vw]">
             <aside className="h-full flex justify-center items-center w-[20%] min-w-[25px] barman">
                 <Image
+                    alt={item.alt}
                     src={item.src}
                     objectFit="contain"
                     quality={100}

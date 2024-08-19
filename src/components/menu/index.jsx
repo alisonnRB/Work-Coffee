@@ -37,6 +37,7 @@ export default function Menu() {
                 <aside className='w-1/3 flex flex-col items-center gap-20 portrait:gap-[3vh]'>
 
                     <Image
+                        alt='imagem ilustrativa de um colaborador da WorkCoffe'
                         src={barist}
                         quality={100}
                         objectFit='contain'

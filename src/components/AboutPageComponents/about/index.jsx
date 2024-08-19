@@ -16,6 +16,7 @@ export default function About() {
 
                 <Image
                     src={Mission}
+                    alt="Imagem ilustrativa de uma pessoa trabalhando na WorkCoffee, representando a missão da empresa"
                     objectFit="contain"
                     quality={100}
                     className="w-1/2"
@@ -32,6 +33,7 @@ export default function About() {
 
                 <Image
                     src={Vision}
+                    alt="Imagem ilustrativa de estudo na WorkCoffee, representando a visão da empresa"
                     objectFit="contain"
                     quality={100}
                     className="w-1/2"

@@ -6,6 +6,7 @@ export default function Contact({image, title, info}){
             <aside className="pl-2">
                 <Image 
                     src={image}
+                    alt="midia de contato com a workcoffee"
                     objectFit="contain"
                     quality={100}
                     className="max-w-[80%]"

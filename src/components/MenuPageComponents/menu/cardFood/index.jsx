@@ -5,6 +5,7 @@ export default function cardFood({item}){
     return(
         <div className="p-[4%] menu-card flex flex-col mb-[15%]">
             <Image 
+                alt={item.alt}
                 src={item.img}
                 objectFit="contain"
                 quality={100}

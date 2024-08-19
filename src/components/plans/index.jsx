@@ -7,6 +7,7 @@ export default function Plans() {
     return (
         <section className='relative flex flex-col items-center gaper z-[250] pb-[20%] bg-white'>
             <Image
+                alt='Imagem aconchegante de um dia de trabalho na WorkCoffee'
                 src={plans}
                 objectFit='contain'
                 className='w-full max-w-screen absolute z-10'
