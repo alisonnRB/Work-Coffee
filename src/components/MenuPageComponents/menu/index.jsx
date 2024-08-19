@@ -9,7 +9,7 @@ export default function Menu({ food }) {
         const list = [];
 
         if(!menu[food]){
-            return <p>Don't Have This</p>;
+            return <p>Don&apos;t Have This</p>;
         }
 
         for (let i = 0; i < menu[food].length; i++) {
