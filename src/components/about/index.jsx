@@ -36,7 +36,7 @@ export default function About() {
                     <p className="text-white text-center relative font-medium  w-[80%] aboutText">
                         Na WorkCoffe, acreditamos na criação do ambiente perfeito para você ler, estudar ou trabalhar em paz. Nosso café oferece um ambiente sereno e tranquilo, projetado para ajudar você a se concentrar e relaxar. Esteja você aqui para saborear nosso café cuidadosamente preparado, desfrutar de uma bebida quente ou saborear uma de nossas deliciosas refeições, estamos empenhados em fornecer a você um espaço confortável e produtivo.
                     </p>
-                    <Link href={'/'} className="w-full ml-[25%]">
+                    <Link href={'/about'} className="w-full ml-[25%]">
                         <button className="border-solid border-white text-white aboutText font-medium border-[.2em] py-[1em] w-[75%]">
                             LER MAIS
                         </button>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import plans from '../../assets/plans.png';
 
 import './index.css';
@@ -21,7 +22,10 @@ export default function Plans() {
 
             <div className='w-full flex flex-col items-center z-20 text-white font-semibold gap-4'>
                 <p className='text-center plans-text w-[75%]'>O workcoffee oferece um ambiente ideial para trabalhar, estudar e relaxar. Confira também os planos para acesso ao nosso café</p>
-                <button className='bg-red plans-text px-[2em] py-1'>VER PLANOS</button>
+                <Link href={'/plans'}>
+                    <button className='bg-red plans-text px-[2em] py-1'>VER PLANOS</button>
+                </Link>
+
             </div>
 
         </section>

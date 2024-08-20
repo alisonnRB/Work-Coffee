@@ -1,4 +1,5 @@
 import "./index.css";
+import Link from "next/link";
 
 export default function ExpressoPlan() {
     return (
@@ -16,7 +17,10 @@ export default function ExpressoPlan() {
 
                 <h3 className="font-extrabold max-w-[70%] text-center plan-title">ENTRADA LIVRE TODOS OS DIAS</h3>
 
+                <Link href={'https://whatsapp.com/'} className="w-full flex justify-center items-center">
                 <button className="border-solid border-[.1rem] border-black pl-2 w-[70%] font-extrabold py-2">ADQUIRIR</button>
+                </Link>
+                
             </main>
         </span>
     );

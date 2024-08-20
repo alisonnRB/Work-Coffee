@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function toworkPlan() {
     return (
         <span className="flex flex-col items-center gap-4 w-[598px] max-w-[30%] max-h-[50vh] portrait:max-w-[70%] portrait:max-h-[40vh]">
@@ -14,8 +16,9 @@ export default function toworkPlan() {
                     <h3 className="font-extrabold max-w-[70%] text-center plan-title">CAFÉ LIBERADO</h3>
                 </span>
 
-
+                <Link href={'https://whatsapp.com/'} className="w-full flex justify-center items-center">
                 <button className="border-solid border-[.1rem] border-black pl-2 w-[70%] font-extrabold py-2">ADQUIRIR</button>
+                </Link>
             </main>
         </span>
     );
